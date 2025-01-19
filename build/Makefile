@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named civetweb_project
+
+# Build rule for target.
+civetweb_project: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 civetweb_project
+.PHONY : civetweb_project
+
+# fast build rule for target.
+civetweb_project/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/civetweb_project.dir/build.make CMakeFiles/civetweb_project.dir/build
+.PHONY : civetweb_project/fast
+
+#=============================================================================
 # Target rules for targets named rest
 
 # Build rule for target.
@@ -161,6 +174,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... civetweb_project"
 	@echo "... rest"
 	@echo "... main.o"
 	@echo "... main.i"

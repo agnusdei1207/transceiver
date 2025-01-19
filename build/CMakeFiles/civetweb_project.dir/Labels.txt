@@ -1,0 +1,13 @@
+# Target labels
+ civetweb_project
+# Source files and their labels
+/Users/agnusdei/workspace/transceiver/build/CMakeFiles/civetweb_project
+/Users/agnusdei/workspace/transceiver/build/CMakeFiles/civetweb_project.rule
+/Users/agnusdei/workspace/transceiver/build/CMakeFiles/civetweb_project-complete.rule
+/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-stamp/civetweb_project-build.rule
+/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-stamp/civetweb_project-configure.rule
+/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-stamp/civetweb_project-download.rule
+/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-stamp/civetweb_project-install.rule
+/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-stamp/civetweb_project-mkdir.rule
+/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-stamp/civetweb_project-patch.rule
+/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-stamp/civetweb_project-update.rule

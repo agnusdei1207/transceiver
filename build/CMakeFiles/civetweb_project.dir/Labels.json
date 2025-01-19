@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/agnusdei/workspace/transceiver/build/CMakeFiles/civetweb_project"
+		},
+		{
+			"file" : "/Users/agnusdei/workspace/transceiver/build/CMakeFiles/civetweb_project.rule"
+		},
+		{
+			"file" : "/Users/agnusdei/workspace/transceiver/build/CMakeFiles/civetweb_project-complete.rule"
+		},
+		{
+			"file" : "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-stamp/civetweb_project-build.rule"
+		},
+		{
+			"file" : "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-stamp/civetweb_project-configure.rule"
+		},
+		{
+			"file" : "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-stamp/civetweb_project-download.rule"
+		},
+		{
+			"file" : "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-stamp/civetweb_project-install.rule"
+		},
+		{
+			"file" : "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-stamp/civetweb_project-mkdir.rule"
+		},
+		{
+			"file" : "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-stamp/civetweb_project-patch.rule"
+		},
+		{
+			"file" : "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-stamp/civetweb_project-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"civetweb_project"
+		],
+		"name" : "civetweb_project"
+	}
+}

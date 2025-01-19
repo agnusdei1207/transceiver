@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "rest",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -38,8 +40,15 @@
 			[
 				{
 					"directoryIndex" : 0,
+					"id" : "civetweb_project::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-civetweb_project-bfc98cab081e6f8944e9.json",
+					"name" : "civetweb_project",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "rest::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-rest-6ecef1e966e73bcebeb6.json",
+					"jsonFile" : "target-rest-0a4627f2d9fa957d623d.json",
 					"name" : "rest",
 					"projectIndex" : 0
 				}

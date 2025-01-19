@@ -1,3 +1,4 @@
+/Users/agnusdei/workspace/transceiver/build/CMakeFiles/civetweb_project.dir
 /Users/agnusdei/workspace/transceiver/build/CMakeFiles/rest.dir
 /Users/agnusdei/workspace/transceiver/build/CMakeFiles/edit_cache.dir
 /Users/agnusdei/workspace/transceiver/build/CMakeFiles/rebuild_cache.dir
