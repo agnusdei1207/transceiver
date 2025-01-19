@@ -1,1 +1,1 @@
-cmd='/opt/homebrew/bin/cmake;-DCMAKE_INSTALL_PREFIX=/Users/agnusdei/workspace/transceiver/build/civetweb/install;-GUnix Makefiles;-S;<SOURCE_DIR><SOURCE_SUBDIR>;-B;<BINARY_DIR>'
+cmd='/opt/homebrew/bin/cmake;-DCMAKE_INSTALL_PREFIX=/Users/agnusdei/workspace/transceiver/build/civetweb/install;-DCMAKE_POSITION_INDEPENDENT_CODE=ON;-DBUILD_IN_SOURCE=OFF;-GUnix Makefiles;-S;<SOURCE_DIR><SOURCE_SUBDIR>;-B;<BINARY_DIR>'

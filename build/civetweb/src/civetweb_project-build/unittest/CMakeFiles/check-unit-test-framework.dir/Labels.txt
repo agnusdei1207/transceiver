@@ -1,0 +1,13 @@
+# Target labels
+ check-unit-test-framework
+# Source files and their labels
+/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/unittest/CMakeFiles/check-unit-test-framework
+/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/unittest/CMakeFiles/check-unit-test-framework.rule
+/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/unittest/CMakeFiles/check-unit-test-framework-complete.rule
+/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/third_party/src/check-unit-test-framework-stamp/check-unit-test-framework-build.rule
+/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/third_party/src/check-unit-test-framework-stamp/check-unit-test-framework-configure.rule
+/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/third_party/src/check-unit-test-framework-stamp/check-unit-test-framework-download.rule
+/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/third_party/src/check-unit-test-framework-stamp/check-unit-test-framework-install.rule
+/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/third_party/src/check-unit-test-framework-stamp/check-unit-test-framework-mkdir.rule
+/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/third_party/src/check-unit-test-framework-stamp/check-unit-test-framework-patch.rule
+/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/third_party/src/check-unit-test-framework-stamp/check-unit-test-framework-update.rule

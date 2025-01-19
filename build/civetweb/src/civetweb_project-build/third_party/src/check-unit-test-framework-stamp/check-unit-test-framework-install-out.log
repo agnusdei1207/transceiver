@@ -1,0 +1,17 @@
+[ 15%] Built target compat
+[ 36%] Built target check
+[ 69%] Built target check_check
+[ 82%] Built target check_check_export
+[ 86%] Built target ex_output
+[ 91%] Built target check_nofork
+[ 95%] Built target check_nofork_teardown
+[100%] Built target check_set_max_msg_size
+Install the project...
+-- Install configuration: "Debug"
+-- Installing: /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/third_party/include/check_stdint.h
+-- Installing: /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/third_party/lib/libcompat.a
+-- Installing: /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/third_party/include/libcompat.h
+-- Installing: /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/third_party/lib/libcheck.a
+-- Installing: /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/third_party/include/check.h
+-- Installing: /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/third_party/cmake/check.cmake
+-- Installing: /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/third_party/cmake/check-debug.cmake

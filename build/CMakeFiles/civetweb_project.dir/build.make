@@ -83,14 +83,14 @@ CMakeFiles/civetweb_project-complete: civetweb/src/civetweb_project-stamp/civetw
 
 civetweb/src/civetweb_project-stamp/civetweb_project-build: civetweb/src/civetweb_project-stamp/civetweb_project-configure
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/agnusdei/workspace/transceiver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'civetweb_project'"
-	cd /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project && $(MAKE)
-	cd /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project && /opt/homebrew/bin/cmake -E touch /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-stamp/civetweb_project-build
+	cd /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build && $(MAKE)
+	cd /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build && /opt/homebrew/bin/cmake -E touch /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-stamp/civetweb_project-build
 
 civetweb/src/civetweb_project-stamp/civetweb_project-configure: civetweb/tmp/civetweb_project-cfgcmd.txt
 civetweb/src/civetweb_project-stamp/civetweb_project-configure: civetweb/src/civetweb_project-stamp/civetweb_project-patch
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/agnusdei/workspace/transceiver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'civetweb_project'"
-	cd /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project && /opt/homebrew/bin/cmake -DCMAKE_INSTALL_PREFIX=/Users/agnusdei/workspace/transceiver/build/civetweb/install "-GUnix Makefiles" -S /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project -B /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project
-	cd /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project && /opt/homebrew/bin/cmake -E touch /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-stamp/civetweb_project-configure
+	cd /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build && /opt/homebrew/bin/cmake -DCMAKE_INSTALL_PREFIX=/Users/agnusdei/workspace/transceiver/build/civetweb/install -DCMAKE_POSITION_INDEPENDENT_CODE=ON -DBUILD_IN_SOURCE=OFF "-GUnix Makefiles" -S /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project -B /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build
+	cd /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build && /opt/homebrew/bin/cmake -E touch /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-stamp/civetweb_project-configure
 
 civetweb/src/civetweb_project-stamp/civetweb_project-download: civetweb/src/civetweb_project-stamp/civetweb_project-gitinfo.txt
 civetweb/src/civetweb_project-stamp/civetweb_project-download: civetweb/src/civetweb_project-stamp/civetweb_project-mkdir
@@ -100,8 +100,8 @@ civetweb/src/civetweb_project-stamp/civetweb_project-download: civetweb/src/cive
 
 civetweb/src/civetweb_project-stamp/civetweb_project-install: civetweb/src/civetweb_project-stamp/civetweb_project-build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/agnusdei/workspace/transceiver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'civetweb_project'"
-	cd /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project && $(MAKE) install
-	cd /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project && /opt/homebrew/bin/cmake -E touch /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-stamp/civetweb_project-install
+	cd /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build && $(MAKE) install
+	cd /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build && /opt/homebrew/bin/cmake -E touch /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-stamp/civetweb_project-install
 
 civetweb/src/civetweb_project-stamp/civetweb_project-mkdir:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/agnusdei/workspace/transceiver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'civetweb_project'"

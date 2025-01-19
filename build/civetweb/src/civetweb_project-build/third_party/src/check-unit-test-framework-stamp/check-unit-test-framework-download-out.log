@@ -1,0 +1,14 @@
+-- Downloading...
+   dst='/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/third_party/src/master.zip'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/civetweb/check/archive/master.zip'
+-- Downloading... done
+-- extracting...
+     src='/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/third_party/src/master.zip'
+     dst='/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/third_party/src/check-unit-test-framework'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done

@@ -1,0 +1,7 @@
+/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/third_party/include/check_stdint.h
+/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/third_party/lib/libcompat.a
+/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/third_party/include/libcompat.h
+/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/third_party/lib/libcheck.a
+/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/third_party/include/check.h
+/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/third_party/cmake/check.cmake
+/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/third_party/cmake/check-debug.cmake

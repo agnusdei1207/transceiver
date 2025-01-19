@@ -1,0 +1,1353 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      The system is: Darwin - 24.2.0 - arm64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: library 'System' not found
+      cc: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is AppleClang, found in:
+        /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/3.31.4/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: library 'c++' not found
+      c++: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is AppleClang, found in:
+        /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/3.31.4/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-KlZDQq"
+      binary: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-KlZDQq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-KlZDQq'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_614c8/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_614c8.dir/build.make CMakeFiles/cmTC_614c8.dir/build
+        Building C object CMakeFiles/cmTC_614c8.dir/CMakeCCompilerABI.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fPIE   -v -Wl,-v -MD -MT CMakeFiles/cmTC_614c8.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_614c8.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_614c8.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Apple clang version 16.0.0 (clang-1600.0.26.6)
+        Target: arm64-apple-darwin24.2.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        cc: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-KlZDQq -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_614c8.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_614c8.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-KlZDQq -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_614c8.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin24.2.0
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking C executable cmTC_614c8
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_614c8.dir/link.txt --verbose=1
+        Apple clang version 16.0.0 (clang-1600.0.26.6)
+        Target: arm64-apple-darwin24.2.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_614c8 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_614c8.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-1115.7.3
+        BUILD 23:52:02 Dec  5 2024
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.9)
+        Library search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/lib
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/lib/swift
+        Framework search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_614c8.dir/CMakeCCompilerABI.c.o -o cmTC_614c8
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:113 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-KlZDQq']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_614c8/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_614c8.dir/build.make CMakeFiles/cmTC_614c8.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_614c8.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fPIE   -v -Wl -v -MD -MT CMakeFiles/cmTC_614c8.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_614c8.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_614c8.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.6)]
+        ignore line: [Target: arm64-apple-darwin24.2.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [cc: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-KlZDQq -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_614c8.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_614c8.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-KlZDQq -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_614c8.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin24.2.0]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_614c8]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_614c8.dir/link.txt --verbose=1]
+        ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.6)]
+        ignore line: [Target: arm64-apple-darwin24.2.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_614c8 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_614c8.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [15.0.0] ==> ignore
+          arg [15.2] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-linkonceodr-outlining] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_614c8] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_614c8.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'C': /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/lib/swift]
+        Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/lib]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/lib/swift] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/lib/swift]
+        collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/lib/swift]
+        implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the C compiler's linker: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1115.7.3
+      BUILD 23:52:02 Dec  5 2024
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+      will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.9)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-Nv0hBM"
+      binary: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-Nv0hBM"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-Nv0hBM'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_dcee2/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_dcee2.dir/build.make CMakeFiles/cmTC_dcee2.dir/build
+        Building CXX object CMakeFiles/cmTC_dcee2.dir/CMakeCXXCompilerABI.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fPIE   -v -Wl,-v -MD -MT CMakeFiles/cmTC_dcee2.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_dcee2.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_dcee2.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Apple clang version 16.0.0 (clang-1600.0.26.6)
+        Target: arm64-apple-darwin24.2.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        c++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-Nv0hBM -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_dcee2.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_dcee2.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-Nv0hBM -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_dcee2.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin24.2.0
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking CXX executable cmTC_dcee2
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcee2.dir/link.txt --verbose=1
+        Apple clang version 16.0.0 (clang-1600.0.26.6)
+        Target: arm64-apple-darwin24.2.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_dcee2 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_dcee2.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-1115.7.3
+        BUILD 23:52:02 Dec  5 2024
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.9)
+        Library search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/lib
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/lib/swift
+        Framework search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_dcee2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_dcee2
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:113 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-Nv0hBM']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_dcee2/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_dcee2.dir/build.make CMakeFiles/cmTC_dcee2.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_dcee2.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fPIE   -v -Wl -v -MD -MT CMakeFiles/cmTC_dcee2.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_dcee2.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_dcee2.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.6)]
+        ignore line: [Target: arm64-apple-darwin24.2.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [c++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-Nv0hBM -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_dcee2.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_dcee2.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-Nv0hBM -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_dcee2.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin24.2.0]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_dcee2]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcee2.dir/link.txt --verbose=1]
+        ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.6)]
+        ignore line: [Target: arm64-apple-darwin24.2.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_dcee2 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_dcee2.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [15.0.0] ==> ignore
+          arg [15.2] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-linkonceodr-outlining] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_dcee2] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_dcee2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'CXX': /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/lib/swift]
+        Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/lib]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/lib/swift] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/lib/swift]
+        collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks]
+        implicit libs: [c++]
+        implicit objs: []
+        implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/lib/swift]
+        implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the CXX compiler's linker: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1115.7.3
+      BUILD 23:52:02 Dec  5 2024
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+      will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.9)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:312 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_STD_C11"
+    directories:
+      source: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-DCIQI7"
+      binary: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-DCIQI7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_C_FLAG_STD_C11"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-DCIQI7'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_96f15/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_96f15.dir/build.make CMakeFiles/cmTC_96f15.dir/build
+        Building C object CMakeFiles/cmTC_96f15.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_C_FLAG_STD_C11  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fPIE   -std=c11 -MD -MT CMakeFiles/cmTC_96f15.dir/src.c.o -MF CMakeFiles/cmTC_96f15.dir/src.c.o.d -o CMakeFiles/cmTC_96f15.dir/src.c.o -c /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-DCIQI7/src.c
+        Linking C executable cmTC_96f15
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96f15.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_96f15.dir/src.c.o -o cmTC_96f15
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:334 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_FSANITIZE_UNDEFINED"
+    directories:
+      source: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-r9OnU8"
+      binary: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-r9OnU8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_C_FLAG_FSANITIZE_UNDEFINED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-r9OnU8'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_28d35/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_28d35.dir/build.make CMakeFiles/cmTC_28d35.dir/build
+        Building C object CMakeFiles/cmTC_28d35.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_C_FLAG_FSANITIZE_UNDEFINED  -std=c11  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fPIE   -fsanitize=undefined -MD -MT CMakeFiles/cmTC_28d35.dir/src.c.o -MF CMakeFiles/cmTC_28d35.dir/src.c.o.d -o CMakeFiles/cmTC_28d35.dir/src.c.o -c /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-r9OnU8/src.c
+        Linking C executable cmTC_28d35
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28d35.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -std=c11  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_28d35.dir/src.c.o -o cmTC_28d35
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:335 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_FSANITIZE_ADDRESS"
+    directories:
+      source: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-28h8PB"
+      binary: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-28h8PB"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11"
+      CMAKE_C_FLAGS_DEBUG: "-g -fsanitize=undefined"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_C_FLAG_FSANITIZE_ADDRESS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-28h8PB'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f2901/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f2901.dir/build.make CMakeFiles/cmTC_f2901.dir/build
+        Building C object CMakeFiles/cmTC_f2901.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_C_FLAG_FSANITIZE_ADDRESS  -std=c11  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fPIE   -fsanitize=address -MD -MT CMakeFiles/cmTC_f2901.dir/src.c.o -MF CMakeFiles/cmTC_f2901.dir/src.c.o.d -o CMakeFiles/cmTC_f2901.dir/src.c.o -c /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-28h8PB/src.c
+        Linking C executable cmTC_f2901
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2901.dir/link.txt --verbose=1
+        Undefined symbols for architecture arm64:
+          "___asan_init", referenced from:
+              _asan.module_ctor in src.c.o
+          "___asan_version_mismatch_check_apple_clang_1600", referenced from:
+              _asan.module_ctor in src.c.o
+        ld: symbol(s) not found for architecture arm64
+        cc: error: linker command failed with exit code 1 (use -v to see invocation)
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -std=c11  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f2901.dir/src.c.o -o cmTC_f2901
+        make[4]: *** [cmTC_f2901] Error 1
+        make[3]: *** [cmTC_f2901/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:364 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_COVERAGE"
+    directories:
+      source: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-RsHOel"
+      binary: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-RsHOel"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11"
+      CMAKE_C_FLAGS_DEBUG: "-g -fsanitize=undefined"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_C_FLAG_COVERAGE"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-RsHOel'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a297a/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a297a.dir/build.make CMakeFiles/cmTC_a297a.dir/build
+        Building C object CMakeFiles/cmTC_a297a.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_C_FLAG_COVERAGE  -std=c11  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fPIE   --coverage -MD -MT CMakeFiles/cmTC_a297a.dir/src.c.o -MF CMakeFiles/cmTC_a297a.dir/src.c.o.d -o CMakeFiles/cmTC_a297a.dir/src.c.o -c /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-RsHOel/src.c
+        Linking C executable cmTC_a297a
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a297a.dir/link.txt --verbose=1
+        Undefined symbols for architecture arm64:
+          "_llvm_gcda_emit_arcs", referenced from:
+              ___llvm_gcov_writeout in src.c.o
+          "_llvm_gcda_emit_function", referenced from:
+              ___llvm_gcov_writeout in src.c.o
+          "_llvm_gcda_end_file", referenced from:
+              ___llvm_gcov_writeout in src.c.o
+          "_llvm_gcda_start_file", referenced from:
+              ___llvm_gcov_writeout in src.c.o
+          "_llvm_gcda_summary_info", referenced from:
+              ___llvm_gcov_writeout in src.c.o
+          "_llvm_gcov_init", referenced from:
+              ___llvm_gcov_init in src.c.o
+        ld: symbol(s) not found for architecture arm64
+        cc: error: linker command failed with exit code 1 (use -v to see invocation)
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -std=c11  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a297a.dir/src.c.o -o cmTC_a297a
+        make[4]: *** [cmTC_a297a] Error 1
+        make[3]: *** [cmTC_a297a/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:423 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_WALL"
+    directories:
+      source: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-pssNAs"
+      binary: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-pssNAs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11"
+      CMAKE_C_FLAGS_DEBUG: "-g -fsanitize=undefined"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_C_FLAG_WALL"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-pssNAs'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9972c/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_9972c.dir/build.make CMakeFiles/cmTC_9972c.dir/build
+        Building C object CMakeFiles/cmTC_9972c.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_C_FLAG_WALL  -std=c11  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fPIE   -Wall -MD -MT CMakeFiles/cmTC_9972c.dir/src.c.o -MF CMakeFiles/cmTC_9972c.dir/src.c.o.d -o CMakeFiles/cmTC_9972c.dir/src.c.o -c /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-pssNAs/src.c
+        Linking C executable cmTC_9972c
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9972c.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -std=c11  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_9972c.dir/src.c.o -o cmTC_9972c
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:424 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_WEXTRA"
+    directories:
+      source: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-v8Pm56"
+      binary: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-v8Pm56"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wall"
+      CMAKE_C_FLAGS_DEBUG: "-g -fsanitize=undefined"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_C_FLAG_WEXTRA"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-v8Pm56'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_887d8/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_887d8.dir/build.make CMakeFiles/cmTC_887d8.dir/build
+        Building C object CMakeFiles/cmTC_887d8.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_C_FLAG_WEXTRA  -std=c11 -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fPIE   -Wextra -MD -MT CMakeFiles/cmTC_887d8.dir/src.c.o -MF CMakeFiles/cmTC_887d8.dir/src.c.o.d -o CMakeFiles/cmTC_887d8.dir/src.c.o -c /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-v8Pm56/src.c
+        Linking C executable cmTC_887d8
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_887d8.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -std=c11 -Wall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_887d8.dir/src.c.o -o cmTC_887d8
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:425 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_WSHADOW"
+    directories:
+      source: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-li3Wd9"
+      binary: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-li3Wd9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wall -Wextra"
+      CMAKE_C_FLAGS_DEBUG: "-g -fsanitize=undefined"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_C_FLAG_WSHADOW"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-li3Wd9'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_74ecb/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_74ecb.dir/build.make CMakeFiles/cmTC_74ecb.dir/build
+        Building C object CMakeFiles/cmTC_74ecb.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_C_FLAG_WSHADOW  -std=c11 -Wall -Wextra  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fPIE   -Wshadow -MD -MT CMakeFiles/cmTC_74ecb.dir/src.c.o -MF CMakeFiles/cmTC_74ecb.dir/src.c.o.d -o CMakeFiles/cmTC_74ecb.dir/src.c.o -c /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-li3Wd9/src.c
+        Linking C executable cmTC_74ecb
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74ecb.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -std=c11 -Wall -Wextra  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_74ecb.dir/src.c.o -o cmTC_74ecb
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:426 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_WCONVERSION"
+    directories:
+      source: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-0zaamB"
+      binary: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-0zaamB"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wall -Wextra -Wshadow"
+      CMAKE_C_FLAGS_DEBUG: "-g -fsanitize=undefined"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_C_FLAG_WCONVERSION"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-0zaamB'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_25b12/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_25b12.dir/build.make CMakeFiles/cmTC_25b12.dir/build
+        Building C object CMakeFiles/cmTC_25b12.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_C_FLAG_WCONVERSION  -std=c11 -Wall -Wextra -Wshadow  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fPIE   -Wconversion -MD -MT CMakeFiles/cmTC_25b12.dir/src.c.o -MF CMakeFiles/cmTC_25b12.dir/src.c.o.d -o CMakeFiles/cmTC_25b12.dir/src.c.o -c /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-0zaamB/src.c
+        Linking C executable cmTC_25b12
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25b12.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -std=c11 -Wall -Wextra -Wshadow  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_25b12.dir/src.c.o -o cmTC_25b12
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:427 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_WMISSING_PROTOTYPES"
+    directories:
+      source: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-nYXW5O"
+      binary: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-nYXW5O"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wall -Wextra -Wshadow -Wconversion"
+      CMAKE_C_FLAGS_DEBUG: "-g -fsanitize=undefined"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_C_FLAG_WMISSING_PROTOTYPES"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-nYXW5O'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8e471/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_8e471.dir/build.make CMakeFiles/cmTC_8e471.dir/build
+        Building C object CMakeFiles/cmTC_8e471.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_C_FLAG_WMISSING_PROTOTYPES  -std=c11 -Wall -Wextra -Wshadow -Wconversion  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fPIE   -Wmissing-prototypes -MD -MT CMakeFiles/cmTC_8e471.dir/src.c.o -MF CMakeFiles/cmTC_8e471.dir/src.c.o.d -o CMakeFiles/cmTC_8e471.dir/src.c.o -c /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-nYXW5O/src.c
+        Linking C executable cmTC_8e471
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e471.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -std=c11 -Wall -Wextra -Wshadow -Wconversion  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8e471.dir/src.c.o -o cmTC_8e471
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:428 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_WEVERYTHING"
+    directories:
+      source: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-x49jUc"
+      binary: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-x49jUc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes"
+      CMAKE_C_FLAGS_DEBUG: "-g -fsanitize=undefined"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_C_FLAG_WEVERYTHING"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-x49jUc'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7444a/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7444a.dir/build.make CMakeFiles/cmTC_7444a.dir/build
+        Building C object CMakeFiles/cmTC_7444a.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_C_FLAG_WEVERYTHING  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fPIE   -Weverything -MD -MT CMakeFiles/cmTC_7444a.dir/src.c.o -MF CMakeFiles/cmTC_7444a.dir/src.c.o.d -o CMakeFiles/cmTC_7444a.dir/src.c.o -c /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-x49jUc/src.c
+        Linking C executable cmTC_7444a
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7444a.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7444a.dir/src.c.o -o cmTC_7444a
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:429 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_WPARENTHESES"
+    directories:
+      source: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-aducBT"
+      binary: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-aducBT"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything"
+      CMAKE_C_FLAGS_DEBUG: "-g -fsanitize=undefined"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_C_FLAG_WPARENTHESES"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-aducBT'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6c73f/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_6c73f.dir/build.make CMakeFiles/cmTC_6c73f.dir/build
+        Building C object CMakeFiles/cmTC_6c73f.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_C_FLAG_WPARENTHESES  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fPIE   -Wparentheses -MD -MT CMakeFiles/cmTC_6c73f.dir/src.c.o -MF CMakeFiles/cmTC_6c73f.dir/src.c.o.d -o CMakeFiles/cmTC_6c73f.dir/src.c.o -c /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-aducBT/src.c
+        Linking C executable cmTC_6c73f
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c73f.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6c73f.dir/src.c.o -o cmTC_6c73f
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:430 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_W4"
+    directories:
+      source: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-PqywXF"
+      binary: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-PqywXF"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses"
+      CMAKE_C_FLAGS_DEBUG: "-g -fsanitize=undefined"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_C_FLAG_W4"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-PqywXF'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e8dc5/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e8dc5.dir/build.make CMakeFiles/cmTC_e8dc5.dir/build
+        Building C object CMakeFiles/cmTC_e8dc5.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_C_FLAG_W4  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fPIE   /W4 -MD -MT CMakeFiles/cmTC_e8dc5.dir/src.c.o -MF CMakeFiles/cmTC_e8dc5.dir/src.c.o.d -o CMakeFiles/cmTC_e8dc5.dir/src.c.o -c /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-PqywXF/src.c
+        cc: error: no such file or directory: '/W4'
+        make[4]: *** [CMakeFiles/cmTC_e8dc5.dir/src.c.o] Error 1
+        make[3]: *** [cmTC_e8dc5/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:433 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_WNO_PADDED"
+    directories:
+      source: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-Fq9fT9"
+      binary: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-Fq9fT9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses"
+      CMAKE_C_FLAGS_DEBUG: "-g -fsanitize=undefined"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_C_FLAG_WNO_PADDED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-Fq9fT9'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_72753/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_72753.dir/build.make CMakeFiles/cmTC_72753.dir/build
+        Building C object CMakeFiles/cmTC_72753.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_C_FLAG_WNO_PADDED  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fPIE   -Wno-padded -MD -MT CMakeFiles/cmTC_72753.dir/src.c.o -MF CMakeFiles/cmTC_72753.dir/src.c.o.d -o CMakeFiles/cmTC_72753.dir/src.c.o -c /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-Fq9fT9/src.c
+        Linking C executable cmTC_72753
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72753.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_72753.dir/src.c.o -o cmTC_72753
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:434 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_WNO_UNUSED_MACROS"
+    directories:
+      source: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-oZsiPT"
+      binary: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-oZsiPT"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses -Wno-padded"
+      CMAKE_C_FLAGS_DEBUG: "-g -fsanitize=undefined"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_C_FLAG_WNO_UNUSED_MACROS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-oZsiPT'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_43f28/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_43f28.dir/build.make CMakeFiles/cmTC_43f28.dir/build
+        Building C object CMakeFiles/cmTC_43f28.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_C_FLAG_WNO_UNUSED_MACROS  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses -Wno-padded  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fPIE   -Wno-unused-macros -MD -MT CMakeFiles/cmTC_43f28.dir/src.c.o -MF CMakeFiles/cmTC_43f28.dir/src.c.o.d -o CMakeFiles/cmTC_43f28.dir/src.c.o -c /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-oZsiPT/src.c
+        Linking C executable cmTC_43f28
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43f28.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses -Wno-padded  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_43f28.dir/src.c.o -o cmTC_43f28
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:435 (Check_C_Compiler_Flag)"
+    checks:
+      - "Performing Test -Wno-reserved-id-macros"
+    directories:
+      source: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-045n8o"
+      binary: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-045n8o"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses -Wno-padded -Wno-unused-macros"
+      CMAKE_C_FLAGS_DEBUG: "-g -fsanitize=undefined"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "-Wno-reserved-id-macros"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-045n8o'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4e1de/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_4e1de.dir/build.make CMakeFiles/cmTC_4e1de.dir/build
+        Building C object CMakeFiles/cmTC_4e1de.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses -Wno-padded -Wno-unused-macros  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fPIE   -D-Wno-reserved-id-macros HAVE_NO_RESERVED_ID_MACROS -MD -MT CMakeFiles/cmTC_4e1de.dir/src.c.o -MF CMakeFiles/cmTC_4e1de.dir/src.c.o.d -o CMakeFiles/cmTC_4e1de.dir/src.c.o -c /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-045n8o/src.c
+        cc: error: no such file or directory: 'HAVE_NO_RESERVED_ID_MACROS'
+        make[4]: *** [CMakeFiles/cmTC_4e1de.dir/src.c.o] Error 1
+        make[3]: *** [cmTC_4e1de/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:439 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_WNO_FORMAT_NONLITERAL"
+    directories:
+      source: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-sMTmGg"
+      binary: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-sMTmGg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses -Wno-padded -Wno-unused-macros"
+      CMAKE_C_FLAGS_DEBUG: "-g -fsanitize=undefined"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_C_FLAG_WNO_FORMAT_NONLITERAL"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-sMTmGg'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d4d8d/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d4d8d.dir/build.make CMakeFiles/cmTC_d4d8d.dir/build
+        Building C object CMakeFiles/cmTC_d4d8d.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_C_FLAG_WNO_FORMAT_NONLITERAL  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses -Wno-padded -Wno-unused-macros  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fPIE   -Wno-format-nonliteral -MD -MT CMakeFiles/cmTC_d4d8d.dir/src.c.o -MF CMakeFiles/cmTC_d4d8d.dir/src.c.o.d -o CMakeFiles/cmTC_d4d8d.dir/src.c.o -c /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-sMTmGg/src.c
+        Linking C executable cmTC_d4d8d
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4d8d.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses -Wno-padded -Wno-unused-macros  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d4d8d.dir/src.c.o -o cmTC_d4d8d
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:440 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_WNO_CAST_QUAL"
+    directories:
+      source: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-aCkRpE"
+      binary: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-aCkRpE"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral"
+      CMAKE_C_FLAGS_DEBUG: "-g -fsanitize=undefined"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_C_FLAG_WNO_CAST_QUAL"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-aCkRpE'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_01764/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_01764.dir/build.make CMakeFiles/cmTC_01764.dir/build
+        Building C object CMakeFiles/cmTC_01764.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_C_FLAG_WNO_CAST_QUAL  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fPIE   -Wno-cast-qual -MD -MT CMakeFiles/cmTC_01764.dir/src.c.o -MF CMakeFiles/cmTC_01764.dir/src.c.o.d -o CMakeFiles/cmTC_01764.dir/src.c.o -c /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-aCkRpE/src.c
+        Linking C executable cmTC_01764
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01764.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_01764.dir/src.c.o -o cmTC_01764
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:441 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_WD4820"
+    directories:
+      source: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-kPhceG"
+      binary: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-kPhceG"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral -Wno-cast-qual"
+      CMAKE_C_FLAGS_DEBUG: "-g -fsanitize=undefined"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_C_FLAG_WD4820"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-kPhceG'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0ccc9/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_0ccc9.dir/build.make CMakeFiles/cmTC_0ccc9.dir/build
+        Building C object CMakeFiles/cmTC_0ccc9.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_C_FLAG_WD4820  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral -Wno-cast-qual  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fPIE   /Wd4820 -MD -MT CMakeFiles/cmTC_0ccc9.dir/src.c.o -MF CMakeFiles/cmTC_0ccc9.dir/src.c.o.d -o CMakeFiles/cmTC_0ccc9.dir/src.c.o -c /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-kPhceG/src.c
+        cc: error: no such file or directory: '/Wd4820'
+        make[4]: *** [CMakeFiles/cmTC_0ccc9.dir/src.c.o] Error 1
+        make[3]: *** [cmTC_0ccc9/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:443 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_PEDANTIC_ERRORS"
+    directories:
+      source: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-dXZTbG"
+      binary: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-dXZTbG"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral -Wno-cast-qual"
+      CMAKE_C_FLAGS_DEBUG: "-g -fsanitize=undefined"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_C_FLAG_PEDANTIC_ERRORS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-dXZTbG'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0410a/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_0410a.dir/build.make CMakeFiles/cmTC_0410a.dir/build
+        Building C object CMakeFiles/cmTC_0410a.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_C_FLAG_PEDANTIC_ERRORS  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral -Wno-cast-qual  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fPIE   -pedantic-errors -MD -MT CMakeFiles/cmTC_0410a.dir/src.c.o -MF CMakeFiles/cmTC_0410a.dir/src.c.o.d -o CMakeFiles/cmTC_0410a.dir/src.c.o -c /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-dXZTbG/src.c
+        Linking C executable cmTC_0410a
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0410a.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral -Wno-cast-qual  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0410a.dir/src.c.o -o cmTC_0410a
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:444 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_FVISIBILITY_HIDDEN"
+    directories:
+      source: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-zNoAkn"
+      binary: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-zNoAkn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral -Wno-cast-qual -pedantic-errors"
+      CMAKE_C_FLAGS_DEBUG: "-g -fsanitize=undefined"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_C_FLAG_FVISIBILITY_HIDDEN"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-zNoAkn'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e6903/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e6903.dir/build.make CMakeFiles/cmTC_e6903.dir/build
+        Building C object CMakeFiles/cmTC_e6903.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_C_FLAG_FVISIBILITY_HIDDEN  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral -Wno-cast-qual -pedantic-errors  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fPIE   -fvisibility=hidden -MD -MT CMakeFiles/cmTC_e6903.dir/src.c.o -MF CMakeFiles/cmTC_e6903.dir/src.c.o.d -o CMakeFiles/cmTC_e6903.dir/src.c.o -c /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-zNoAkn/src.c
+        Linking C executable cmTC_e6903
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6903.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral -Wno-cast-qual -pedantic-errors  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e6903.dir/src.c.o -o cmTC_e6903
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:445 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_FSTACK_PROTECTOR_STRONG"
+    directories:
+      source: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-OSi0mY"
+      binary: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-OSi0mY"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral -Wno-cast-qual -pedantic-errors -fvisibility=hidden"
+      CMAKE_C_FLAGS_DEBUG: "-g -fsanitize=undefined"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_C_FLAG_FSTACK_PROTECTOR_STRONG"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-OSi0mY'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_dd7da/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_dd7da.dir/build.make CMakeFiles/cmTC_dd7da.dir/build
+        Building C object CMakeFiles/cmTC_dd7da.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_C_FLAG_FSTACK_PROTECTOR_STRONG  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral -Wno-cast-qual -pedantic-errors -fvisibility=hidden  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fPIE   -fstack-protector-strong -MD -MT CMakeFiles/cmTC_dd7da.dir/src.c.o -MF CMakeFiles/cmTC_dd7da.dir/src.c.o.d -o CMakeFiles/cmTC_dd7da.dir/src.c.o -c /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-OSi0mY/src.c
+        Linking C executable cmTC_dd7da
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd7da.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral -Wno-cast-qual -pedantic-errors -fvisibility=hidden  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_dd7da.dir/src.c.o -o cmTC_dd7da
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:446 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_FSTACK_PROTECTOR_ALL"
+    directories:
+      source: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-aqbnAH"
+      binary: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-aqbnAH"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral -Wno-cast-qual -pedantic-errors -fvisibility=hidden"
+      CMAKE_C_FLAGS_DEBUG: "-g -fsanitize=undefined"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_C_FLAG_FSTACK_PROTECTOR_ALL"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-aqbnAH'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_eb908/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_eb908.dir/build.make CMakeFiles/cmTC_eb908.dir/build
+        Building C object CMakeFiles/cmTC_eb908.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_C_FLAG_FSTACK_PROTECTOR_ALL  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral -Wno-cast-qual -pedantic-errors -fvisibility=hidden  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fPIE   -fstack-protector-all -MD -MT CMakeFiles/cmTC_eb908.dir/src.c.o -MF CMakeFiles/cmTC_eb908.dir/src.c.o.d -o CMakeFiles/cmTC_eb908.dir/src.c.o -c /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-aqbnAH/src.c
+        Linking C executable cmTC_eb908
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb908.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral -Wno-cast-qual -pedantic-errors -fvisibility=hidden  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_eb908.dir/src.c.o -o cmTC_eb908
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/opt/homebrew/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "src/CMakeLists.txt:39 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-1w9F0A"
+      binary: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-1w9F0A"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral -Wno-cast-qual -pedantic-errors -fvisibility=hidden"
+      CMAKE_C_FLAGS_DEBUG: "-g -fsanitize=undefined -fstack-protector-all"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-1w9F0A'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_719e4/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_719e4.dir/build.make CMakeFiles/cmTC_719e4.dir/build
+        Building C object CMakeFiles/cmTC_719e4.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral -Wno-cast-qual -pedantic-errors -fvisibility=hidden  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fPIE -MD -MT CMakeFiles/cmTC_719e4.dir/src.c.o -MF CMakeFiles/cmTC_719e4.dir/src.c.o.d -o CMakeFiles/cmTC_719e4.dir/src.c.o -c /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-1w9F0A/src.c
+        /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles/CMakeScratch/TryCompile-1w9F0A/src.c:18:10: warning: 'return' will never be executed [-Wunreachable-code-return]
+           18 |   return 0;
+              |          ^
+        1 warning generated.
+        Linking C executable cmTC_719e4
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_719e4.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Weverything -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral -Wno-cast-qual -pedantic-errors -fvisibility=hidden  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_719e4.dir/src.c.o -o cmTC_719e4
+        
+      exitCode: 0
+...

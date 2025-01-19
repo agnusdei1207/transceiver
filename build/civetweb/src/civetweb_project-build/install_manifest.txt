@@ -1,0 +1,12 @@
+/Users/agnusdei/workspace/transceiver/build/civetweb/install/lib/cmake/civetweb/civetweb-targets.cmake
+/Users/agnusdei/workspace/transceiver/build/civetweb/install/lib/cmake/civetweb/civetweb-targets-noconfig.cmake
+/Users/agnusdei/workspace/transceiver/build/civetweb/install/lib/pkgconfig/civetweb.pc
+/Users/agnusdei/workspace/transceiver/build/civetweb/install/lib/pkgconfig/civetweb-cpp.pc
+/Users/agnusdei/workspace/transceiver/build/civetweb/install/lib/cmake/civetweb/civetweb-config.cmake
+/Users/agnusdei/workspace/transceiver/build/civetweb/install/lib/cmake/civetweb/civetweb-config-version.cmake
+/Users/agnusdei/workspace/transceiver/build/civetweb/install/lib/cmake/civetweb/FindLibDl.cmake
+/Users/agnusdei/workspace/transceiver/build/civetweb/install/lib/cmake/civetweb/FindLibRt.cmake
+/Users/agnusdei/workspace/transceiver/build/civetweb/install/lib/cmake/civetweb/FindWinSock.cmake
+/Users/agnusdei/workspace/transceiver/build/civetweb/install/lib/libcivetweb.a
+/Users/agnusdei/workspace/transceiver/build/civetweb/install/include/civetweb.h
+/Users/agnusdei/workspace/transceiver/build/civetweb/install/bin/civetweb

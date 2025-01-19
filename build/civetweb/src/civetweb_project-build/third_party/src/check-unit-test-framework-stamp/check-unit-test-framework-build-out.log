@@ -1,0 +1,54 @@
+[  2%] Building C object lib/CMakeFiles/compat.dir/libcompat.c.o
+[  4%] Building C object lib/CMakeFiles/compat.dir/fpclassify.c.o
+[  6%] Building C object lib/CMakeFiles/compat.dir/clock_gettime.c.o
+[  8%] Building C object lib/CMakeFiles/compat.dir/timer_create.c.o
+[ 10%] Building C object lib/CMakeFiles/compat.dir/timer_delete.c.o
+[ 13%] Building C object lib/CMakeFiles/compat.dir/timer_settime.c.o
+[ 15%] Linking C static library libcompat.a
+[ 15%] Built target compat
+[ 17%] Building C object src/CMakeFiles/check.dir/check.c.o
+[ 19%] Building C object src/CMakeFiles/check.dir/check_error.c.o
+[ 21%] Building C object src/CMakeFiles/check.dir/check_list.c.o
+[ 23%] Building C object src/CMakeFiles/check.dir/check_log.c.o
+[ 26%] Building C object src/CMakeFiles/check.dir/check_msg.c.o
+[ 28%] Building C object src/CMakeFiles/check.dir/check_pack.c.o
+[ 30%] Building C object src/CMakeFiles/check.dir/check_print.c.o
+[ 32%] Building C object src/CMakeFiles/check.dir/check_run.c.o
+[ 34%] Building C object src/CMakeFiles/check.dir/check_str.c.o
+[ 36%] Linking C static library libcheck.a
+[ 36%] Built target check
+[ 39%] Building C object tests/CMakeFiles/check_check.dir/check_check_exit.c.o
+[ 41%] Building C object tests/CMakeFiles/check_check.dir/check_check_fixture.c.o
+[ 43%] Building C object tests/CMakeFiles/check_check.dir/check_check_fork.c.o
+[ 45%] Building C object tests/CMakeFiles/check_check.dir/check_check_limit.c.o
+[ 47%] Building C object tests/CMakeFiles/check_check.dir/check_check_log.c.o
+[ 50%] Building C object tests/CMakeFiles/check_check.dir/check_check_log_internal.c.o
+[ 52%] Building C object tests/CMakeFiles/check_check.dir/check_check_main.c.o
+[ 54%] Building C object tests/CMakeFiles/check_check.dir/check_check_master.c.o
+[ 56%] Building C object tests/CMakeFiles/check_check.dir/check_check_msg.c.o
+[ 58%] Building C object tests/CMakeFiles/check_check.dir/check_check_pack.c.o
+[ 60%] Building C object tests/CMakeFiles/check_check.dir/check_check_selective.c.o
+[ 63%] Building C object tests/CMakeFiles/check_check.dir/check_check_sub.c.o
+[ 65%] Building C object tests/CMakeFiles/check_check.dir/check_check_tags.c.o
+[ 67%] Building C object tests/CMakeFiles/check_check.dir/check_list.c.o
+[ 69%] Linking C executable check_check
+[ 69%] Built target check_check
+[ 71%] Building C object tests/CMakeFiles/check_check_export.dir/check_check_sub.c.o
+[ 73%] Building C object tests/CMakeFiles/check_check_export.dir/check_check_master.c.o
+[ 76%] Building C object tests/CMakeFiles/check_check_export.dir/check_check_log.c.o
+[ 78%] Building C object tests/CMakeFiles/check_check_export.dir/check_check_fork.c.o
+[ 80%] Building C object tests/CMakeFiles/check_check_export.dir/check_check_export_main.c.o
+[ 82%] Linking C executable check_check_export
+[ 82%] Built target check_check_export
+[ 84%] Building C object tests/CMakeFiles/ex_output.dir/ex_output.c.o
+[ 86%] Linking C executable ex_output
+[ 86%] Built target ex_output
+[ 89%] Building C object tests/CMakeFiles/check_nofork.dir/check_nofork.c.o
+[ 91%] Linking C executable check_nofork
+[ 91%] Built target check_nofork
+[ 93%] Building C object tests/CMakeFiles/check_nofork_teardown.dir/check_nofork_teardown.c.o
+[ 95%] Linking C executable check_nofork_teardown
+[ 95%] Built target check_nofork_teardown
+[ 97%] Building C object tests/CMakeFiles/check_set_max_msg_size.dir/check_set_max_msg_size.c.o
+[100%] Linking C executable check_set_max_msg_size
+[100%] Built target check_set_max_msg_size
