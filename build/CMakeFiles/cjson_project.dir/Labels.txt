@@ -1,0 +1,13 @@
+# Target labels
+ cjson_project
+# Source files and their labels
+/Users/agnusdei/workspace/transceiver/build/CMakeFiles/cjson_project
+/Users/agnusdei/workspace/transceiver/build/CMakeFiles/cjson_project.rule
+/Users/agnusdei/workspace/transceiver/build/CMakeFiles/cjson_project-complete.rule
+/Users/agnusdei/workspace/transceiver/build/cjson/src/cjson_project-stamp/cjson_project-build.rule
+/Users/agnusdei/workspace/transceiver/build/cjson/src/cjson_project-stamp/cjson_project-configure.rule
+/Users/agnusdei/workspace/transceiver/build/cjson/src/cjson_project-stamp/cjson_project-download.rule
+/Users/agnusdei/workspace/transceiver/build/cjson/src/cjson_project-stamp/cjson_project-install.rule
+/Users/agnusdei/workspace/transceiver/build/cjson/src/cjson_project-stamp/cjson_project-mkdir.rule
+/Users/agnusdei/workspace/transceiver/build/cjson/src/cjson_project-stamp/cjson_project-patch.rule
+/Users/agnusdei/workspace/transceiver/build/cjson/src/cjson_project-stamp/cjson_project-update.rule

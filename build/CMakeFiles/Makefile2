@@ -64,11 +64,13 @@ CMAKE_BINARY_DIR = /Users/agnusdei/workspace/transceiver/build
 
 # The main recursive "all" target.
 all: CMakeFiles/civetweb_project.dir/all
+all: CMakeFiles/cjson_project.dir/all
 all: CMakeFiles/rest.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/civetweb_project.dir/codegen
+codegen: CMakeFiles/cjson_project.dir/codegen
 codegen: CMakeFiles/rest.dir/codegen
 .PHONY : codegen
 
@@ -78,6 +80,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/civetweb_project.dir/clean
+clean: CMakeFiles/cjson_project.dir/clean
 clean: CMakeFiles/rest.dir/clean
 .PHONY : clean
 
@@ -114,18 +117,51 @@ CMakeFiles/civetweb_project.dir/clean:
 .PHONY : CMakeFiles/civetweb_project.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/cjson_project.dir
+
+# All Build rule for target.
+CMakeFiles/cjson_project.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cjson_project.dir/build.make CMakeFiles/cjson_project.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cjson_project.dir/build.make CMakeFiles/cjson_project.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/agnusdei/workspace/transceiver/build/CMakeFiles --progress-num=9,10,11,12,13,14,15,16 "Built target cjson_project"
+.PHONY : CMakeFiles/cjson_project.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/cjson_project.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/agnusdei/workspace/transceiver/build/CMakeFiles 8
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cjson_project.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/agnusdei/workspace/transceiver/build/CMakeFiles 0
+.PHONY : CMakeFiles/cjson_project.dir/rule
+
+# Convenience name for target.
+cjson_project: CMakeFiles/cjson_project.dir/rule
+.PHONY : cjson_project
+
+# codegen rule for target.
+CMakeFiles/cjson_project.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cjson_project.dir/build.make CMakeFiles/cjson_project.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/agnusdei/workspace/transceiver/build/CMakeFiles --progress-num=9,10,11,12,13,14,15,16 "Finished codegen for target cjson_project"
+.PHONY : CMakeFiles/cjson_project.dir/codegen
+
+# clean rule for target.
+CMakeFiles/cjson_project.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cjson_project.dir/build.make CMakeFiles/cjson_project.dir/clean
+.PHONY : CMakeFiles/cjson_project.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/rest.dir
 
 # All Build rule for target.
 CMakeFiles/rest.dir/all: CMakeFiles/civetweb_project.dir/all
+CMakeFiles/rest.dir/all: CMakeFiles/cjson_project.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rest.dir/build.make CMakeFiles/rest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rest.dir/build.make CMakeFiles/rest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/agnusdei/workspace/transceiver/build/CMakeFiles --progress-num=9,10 "Built target rest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/agnusdei/workspace/transceiver/build/CMakeFiles --progress-num=17,18 "Built target rest"
 .PHONY : CMakeFiles/rest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/rest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/agnusdei/workspace/transceiver/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/agnusdei/workspace/transceiver/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/rest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/agnusdei/workspace/transceiver/build/CMakeFiles 0
 .PHONY : CMakeFiles/rest.dir/rule
@@ -136,8 +172,9 @@ rest: CMakeFiles/rest.dir/rule
 
 # codegen rule for target.
 CMakeFiles/rest.dir/codegen: CMakeFiles/civetweb_project.dir/all
+CMakeFiles/rest.dir/codegen: CMakeFiles/cjson_project.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rest.dir/build.make CMakeFiles/rest.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/agnusdei/workspace/transceiver/build/CMakeFiles --progress-num=9,10 "Finished codegen for target rest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/agnusdei/workspace/transceiver/build/CMakeFiles --progress-num=17,18 "Finished codegen for target rest"
 .PHONY : CMakeFiles/rest.dir/codegen
 
 # clean rule for target.

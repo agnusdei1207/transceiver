@@ -56,9 +56,10 @@ if(_IMPORT_PREFIX STREQUAL "/")
 endif()
 
 # Create imported target civetweb::civetweb
-add_library(civetweb::civetweb STATIC IMPORTED)
+add_library(civetweb::civetweb SHARED IMPORTED)
 
 set_target_properties(civetweb::civetweb PROPERTIES
+  INTERFACE_COMPILE_DEFINITIONS "CIVETWEB_DLL_IMPORTS"
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
   INTERFACE_LINK_LIBRARIES "-ldl"
 )

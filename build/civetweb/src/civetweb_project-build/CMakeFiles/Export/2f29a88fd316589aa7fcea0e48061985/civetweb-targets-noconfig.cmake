@@ -8,12 +8,12 @@ set(CMAKE_IMPORT_FILE_VERSION 1)
 # Import target "civetweb::civetweb" for configuration ""
 set_property(TARGET civetweb::civetweb APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(civetweb::civetweb PROPERTIES
-  IMPORTED_LINK_INTERFACE_LANGUAGES_NOCONFIG "C"
-  IMPORTED_LOCATION_NOCONFIG "${_IMPORT_PREFIX}/lib/libcivetweb.a"
+  IMPORTED_LOCATION_NOCONFIG "${_IMPORT_PREFIX}/lib/libcivetweb.1.16.0.dylib"
+  IMPORTED_SONAME_NOCONFIG "@rpath/libcivetweb.1.16.0.dylib"
   )
 
 list(APPEND _cmake_import_check_targets civetweb::civetweb )
-list(APPEND _cmake_import_check_files_for_civetweb::civetweb "${_IMPORT_PREFIX}/lib/libcivetweb.a" )
+list(APPEND _cmake_import_check_files_for_civetweb::civetweb "${_IMPORT_PREFIX}/lib/libcivetweb.1.16.0.dylib" )
 
 # Import target "civetweb::server" for configuration ""
 set_property(TARGET civetweb::server APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)

@@ -103,7 +103,7 @@ unittest/main-c-unit-test: unittest/libtimer-c-unit-tests.a
 unittest/main-c-unit-test: unittest/libexe-c-unit-tests.a
 unittest/main-c-unit-test: third_party/lib/libcheck.a
 unittest/main-c-unit-test: third_party/lib/libcompat.a
-unittest/main-c-unit-test: src/libcivetweb.a
+unittest/main-c-unit-test: src/libcivetweb.1.16.0.dylib
 unittest/main-c-unit-test: unittest/CMakeFiles/main-c-unit-test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable main-c-unit-test"
 	cd /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/unittest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main-c-unit-test.dir/link.txt --verbose=$(VERBOSE)

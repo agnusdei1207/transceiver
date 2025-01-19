@@ -95,7 +95,7 @@ civetweb__c__executable_EXTERNAL_OBJECTS =
 
 src/civetweb: src/CMakeFiles/civetweb-c-executable.dir/main.c.o
 src/civetweb: src/CMakeFiles/civetweb-c-executable.dir/build.make
-src/civetweb: src/libcivetweb.a
+src/civetweb: src/libcivetweb.1.16.0.dylib
 src/civetweb: src/CMakeFiles/civetweb-c-executable.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable civetweb"
 	cd /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/civetweb-c-executable.dir/link.txt --verbose=$(VERBOSE)

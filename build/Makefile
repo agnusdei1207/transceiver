@@ -130,6 +130,19 @@ civetweb_project/fast:
 .PHONY : civetweb_project/fast
 
 #=============================================================================
+# Target rules for targets named cjson_project
+
+# Build rule for target.
+cjson_project: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cjson_project
+.PHONY : cjson_project
+
+# fast build rule for target.
+cjson_project/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cjson_project.dir/build.make CMakeFiles/cjson_project.dir/build
+.PHONY : cjson_project/fast
+
+#=============================================================================
 # Target rules for targets named rest
 
 # Build rule for target.
@@ -175,6 +188,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... civetweb_project"
+	@echo "... cjson_project"
 	@echo "... rest"
 	@echo "... main.o"
 	@echo "... main.i"

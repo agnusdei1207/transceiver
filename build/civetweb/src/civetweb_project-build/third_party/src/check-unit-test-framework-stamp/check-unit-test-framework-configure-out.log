@@ -144,6 +144,6 @@
 -- Looking for clock_gettime in rt - not found
 -- Looking for subunit_test_start in subunit
 -- Looking for subunit_test_start in subunit - not found
--- Configuring done (7.4s)
+-- Configuring done (7.8s)
 -- Generating done (0.1s)
 -- Build files have been written to: /Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/third_party/src/check-unit-test-framework

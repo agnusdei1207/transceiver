@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
+  ".1.16.0"
   "CMakeFiles/civetweb-c-library.dir/civetweb.c.o"
   "CMakeFiles/civetweb-c-library.dir/civetweb.c.o.d"
-  "libcivetweb.a"
+  "libcivetweb.1.16.0.dylib"
+  "libcivetweb.dylib"
   "libcivetweb.pdb"
 )
 
