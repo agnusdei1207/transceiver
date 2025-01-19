@@ -95,8 +95,6 @@ rest_EXTERNAL_OBJECTS =
 
 rest: CMakeFiles/rest.dir/main.c.o
 rest: CMakeFiles/rest.dir/build.make
-rest: civetweb/install/lib/libcivetweb.a
-rest: cjson/install/lib/libcjson.a
 rest: civetweb/install/lib/libcivetweb.dylib
 rest: cjson/install/lib/libcjson.dylib
 rest: CMakeFiles/rest.dir/link.txt
