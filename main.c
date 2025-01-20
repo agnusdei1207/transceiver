@@ -2,11 +2,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "cJSON.h" // JSON 파싱 라이브러리
+#include "cJSON.h"
 
 #define PORT "8443"
-#define SSL_CERT_FILE "./certs/server-cert.pem"
-#define SSL_KEY_FILE "./certs/server-key.pem"
+#define SSL_CERT_FILE "./certificates/server/certs/server.crt"  // 서버 인증서 경로
+#define SSL_KEY_FILE "./certificates/server/private/server.key"   // 서버 개인 키 경로
 
 static int handle_rules(struct mg_connection *conn, void *cbdata) {
     const struct mg_request_info *req_info = mg_get_request_info(conn);
@@ -56,7 +56,7 @@ static int handle_rules(struct mg_connection *conn, void *cbdata) {
 
 int main() {
     const char *options[] = {
-        "listening_ports", PORT "s",
+        "listening_ports", PORT,
         "ssl_certificate", SSL_CERT_FILE,
         "ssl_private_key", SSL_KEY_FILE,
         NULL
