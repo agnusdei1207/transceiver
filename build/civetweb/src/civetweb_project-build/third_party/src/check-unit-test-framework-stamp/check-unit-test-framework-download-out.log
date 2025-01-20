@@ -3,35 +3,6 @@
    timeout='none'
    inactivity timeout='none'
 -- Using src='https://github.com/civetweb/check/archive/master.zip'
--- [download 3% complete]
--- [download 7% complete]
--- [download 10% complete]
--- [download 14% complete]
--- [download 17% complete]
--- [download 21% complete]
--- [download 24% complete]
--- [download 27% complete]
--- [download 31% complete]
--- [download 35% complete]
--- [download 38% complete]
--- [download 42% complete]
--- [download 46% complete]
--- [download 49% complete]
--- [download 51% complete]
--- [download 55% complete]
--- [download 59% complete]
--- [download 63% complete]
--- [download 66% complete]
--- [download 70% complete]
--- [download 73% complete]
--- [download 77% complete]
--- [download 81% complete]
--- [download 84% complete]
--- [download 88% complete]
--- [download 92% complete]
--- [download 95% complete]
--- [download 99% complete]
--- [download 100% complete]
 -- Downloading... done
 -- extracting...
      src='/Users/agnusdei/workspace/transceiver/build/civetweb/src/civetweb_project-build/third_party/src/master.zip'
