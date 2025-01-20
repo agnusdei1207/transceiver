@@ -95,6 +95,8 @@ rest_EXTERNAL_OBJECTS =
 
 rest: CMakeFiles/rest.dir/main.c.o
 rest: CMakeFiles/rest.dir/build.make
+rest: civetweb/install/lib/libcivetweb.dylib
+rest: cjson/install/lib/libcjson.dylib
 rest: CMakeFiles/rest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/agnusdei/workspace/transceiver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable rest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rest.dir/link.txt --verbose=$(VERBOSE)

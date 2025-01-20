@@ -1,0 +1,9 @@
+/Users/agnusdei/workspace/transceiver/build/cjson/install/include/cjson/cJSON.h
+/Users/agnusdei/workspace/transceiver/build/cjson/install/lib/pkgconfig/libcjson.pc
+/Users/agnusdei/workspace/transceiver/build/cjson/install/lib/libcjson.1.7.18.dylib
+/Users/agnusdei/workspace/transceiver/build/cjson/install/lib/libcjson.1.dylib
+/Users/agnusdei/workspace/transceiver/build/cjson/install/lib/libcjson.dylib
+/Users/agnusdei/workspace/transceiver/build/cjson/install/lib/cmake/cJSON/cjson.cmake
+/Users/agnusdei/workspace/transceiver/build/cjson/install/lib/cmake/cJSON/cjson-noconfig.cmake
+/Users/agnusdei/workspace/transceiver/build/cjson/install/lib/cmake/cJSON/cJSONConfig.cmake
+/Users/agnusdei/workspace/transceiver/build/cjson/install/lib/cmake/cJSON/cJSONConfigVersion.cmake
